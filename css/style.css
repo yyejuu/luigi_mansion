@@ -91,7 +91,7 @@ ul#menu li:nth-child(4).on a{color: #79d0ff; border-color: #79d0ff;}
 }
 #wrap section article p {
   font-family: 'Cafe24Supermagic-Bold-v1.0';
-  position: absolute; top: 78%; left: 5%;
+  position: absolute; top: 78%; right: 5%;
   font-size: 16px;
   color: #fff;
 }

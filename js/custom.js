@@ -10,7 +10,7 @@ $(function () {
     let nowTop = i * ht;
     $('html, body').stop().animate({
       scrollTop: nowTop,
-    }, 1300, 'easeOutBack');
+    }, 1300);
   });
 
   //스크롤 이벤트 - 메뉴 on class
@@ -39,7 +39,7 @@ $(function () {
       let moveTop = nav.offset().top;
       $('html, body').stop().animate({
         scrollTop: moveTop,
-      }, 1300, 'easeOutBack');
+      }, 1300);
       console.log(nav);
     }
   });
